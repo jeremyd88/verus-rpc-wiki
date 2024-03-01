@@ -1,0 +1,12 @@
+addnode "node" "add|remove|onetry"
+clearbanned
+disconnectnode "node" 
+getaddednodeinfo dns ( "node" )
+getconnectioncount
+getdeprecationinfo
+getnettotals
+getnetworkinfo
+getpeerinfo
+listbanned
+ping
+setban "ip(/netmask)" "add|remove" (bantime) (absolute)

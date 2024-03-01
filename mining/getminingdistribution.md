@@ -1,0 +1,27 @@
+##getminingdistribution
+getminingdistribution
+
+Retrieves current mining distribution
+
+Arguments:
+```
+
+
+```
+Result:
+```
+     NULL object if not set
+     If set:
+     {
+       "uniquedestination1":value    (key/number) valid destination address and relative value output to it
+       "uniquedestination2":value    (key/number) destination address and relative value output
+       ...
+     }
+
+```
+Examples
+```
+> verus getminingdistribution 
+> curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getminingdistribution", "params": [] }' -H 'content-type: text/plain;' http://127.0.0.1:27486/
+
+```

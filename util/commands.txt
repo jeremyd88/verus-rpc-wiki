@@ -1,0 +1,11 @@
+createmultisig nrequired ["key",...]
+estimatefee nblocks
+estimatepriority nblocks
+invalidateblock "hash"
+jumblr_deposit "depositaddress"
+jumblr_pause
+jumblr_resume
+jumblr_secret "secretaddress"
+reconsiderblock "hash"
+validateaddress "address"
+z_validateaddress "zaddr"

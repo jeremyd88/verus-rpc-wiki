@@ -1,0 +1,10 @@
+getblocksubsidy height
+getblocktemplate ( "jsonrequestobject" )
+getlocalsolps
+getminingdistribution
+getmininginfo
+getnetworkhashps ( blocks height )
+getnetworksolps ( blocks height )
+prioritisetransaction <txid> <priority delta> <fee delta>
+setminingdistribution ( "jsonminingdistribution" )
+submitblock "hexdata" ( "jsonparametersobject" )

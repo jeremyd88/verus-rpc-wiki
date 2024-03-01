@@ -1,0 +1,26 @@
+addmergedblock "hexdata" ( "jsonparametersobject" )
+definecurrency '{"name": "coinortokenname", ..., "nodes":[{"networkaddress":"identity"},..]}'\
+estimateconversion '{"currency":"name","convertto":"name","amount":n}'
+getbestproofroot '{"proofroots":["version":n,"type":n,"systemid":"currencyidorname","height":n,                   "stateroot":"hex","blockhash":"hex","power":"hex"],"lastconfirmed":n}'
+getcurrency "currencyname"
+getcurrencyconverters "currency1" "currency2" ...
+getcurrencystate "currencynameorid" ("n") ("connectedsystemid")
+getcurrencytrust '["currencyid",...]'
+getexports "chainname" (heightstart) (heightend)
+getimports "chainname" (startheight) (endheight)
+getinitialcurrencystate "name"
+getlastimportfrom "systemname"
+getlaunchinfo "currencyid"
+getnotarizationdata "currencynameorid" (getevidence) (separatecounterevidence)
+getnotarizationproofs '[{"type":"vrsc::evidence.skipchallenge" || "iCwxpRL6h3YeCRtGjgQSsqoKdZCuM4Dxaf",
+getpendingtransfers "chainname"
+getreservedeposits "currencyname" (returnutxos)
+getsaplingtree "n"
+listcurrencies ({query object}) startblock endblock
+refundfailedlaunch "currencyid"
+sendcurrency "fromaddress" '[{"address":... ,"amount":...},...]' (minconfs) (feeamount) (returntxtemplate)
+setcurrencytrust '{"clearall": bool, "setratings":[{"currencyid":JSONRatingObject},...], "removeratings":["currencyid",...], "currencytrustmode":<n>}'
+submitacceptednotarization "{earnednotarization}" "{notaryevidence}"
+submitchallenges '[{"type":"vrsc::evidence.skipchallenge" || "iCwxpRL6h3YeCRtGjgQSsqoKdZCuM4Dxaf" ||
+submitimports '{"sourcesystemid":"systemid", "notarizationtxid":"txid", "notarizationtxoutnum":n,
+submitmergedblock "hexdata" ( "jsonparametersobject" )
