@@ -1,0 +1,2 @@
+z_getpaymentdisclosure "txid" "js_index" "output_index" ("message") 
+z_validatepaymentdisclosure "paymentdisclosure"

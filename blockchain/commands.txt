@@ -1,0 +1,26 @@
+coinsupply <height>
+getbestblockhash
+getblock "hash|height" ( verbosity )
+getblockchaininfo
+getblockcount
+getblockdeltas "blockhash"
+getblockhash index
+getblockhashes timestamp
+getblockheader "hash" ( verbose )
+getchaintips
+getchaintxstats
+getdifficulty
+getmempoolinfo
+getrawmempool ( verbose )
+getspentinfo
+gettxout "txid" n ( includemempool )
+gettxoutproof ["txid",...] ( blockhash )
+gettxoutsetinfo
+kvsearch key
+kvupdate key "value" days passphrase
+minerids needs height
+notaries height timestamp
+processupgradedata {upgradedata}
+verifychain ( checklevel numblocks )
+verifytxoutproof "proof"
+z_gettreestate "hash|height"

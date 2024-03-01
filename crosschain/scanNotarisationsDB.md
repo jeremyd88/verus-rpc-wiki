@@ -1,0 +1,5 @@
+##scanNotarisationsDB
+scanNotarisationsDB blockHeight symbol [blocksLimit=1440]
+
+Scans notarisationsdb backwards from height for a notarisation of given symbol
+```

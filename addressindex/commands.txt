@@ -1,0 +1,6 @@
+getaddressbalance
+getaddressdeltas
+getaddressmempool
+getaddresstxids
+getaddressutxos
+getsnapshot

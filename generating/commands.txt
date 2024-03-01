@@ -1,0 +1,3 @@
+generate numblocks
+getgenerate
+setgenerate generate ( genproclimit )

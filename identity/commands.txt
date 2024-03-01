@@ -1,0 +1,22 @@
+getidentitieswithaddress '{"address":"validprimaryaddress","fromheight":height, "toheight":height, "unspent":false}'
+getidentitieswithrecovery '{"identityid":"idori-address", "fromheight":height, "toheight":height, "unspent":false}'
+getidentitieswithrevocation '{"identityid":"idori-address", "fromheight":height, "toheight":height, "unspent":false}'
+getidentity "name@ || iid" (height) (txproof) (txproofheight)
+getidentitycontent "name@ || iid" (heightstart) (heightend) (txproofs) (txproofheight) (vdxfkey)
+getidentityhistory "name@ || iid" (heightstart) (heightend) (txproofs) (txproofheight)
+getidentitytrust '["id",...]'
+listidentities (includecanspend) (includecansign) (includewatchonly)
+recoveridentity "jsonidentity" (returntx) (tokenrecover) (feeoffer) (sourceoffunds)
+registeridentity "jsonidregistration" (returntx) feeoffer sourceoffunds
+registernamecommitment "name" "controladdress" ("referralidentity") ("parentnameorid") ("sourceoffunds")
+revokeidentity "nameorID" (returntx) (tokenrevoke) (feeoffer) (sourceoffunds)
+setidentitytimelock "id@" '{"unlockatblock":absoluteblockheight || "setunlockdelay":numberofblocksdelayafterunlock}' (returntx) (feeoffer) (sourceoffunds)
+setidentitytrust '{"clearall": bool, "setratings":{"id":JSONRatingObject,...}, "removeratings":["id",...], "identitytrustmode":<n>}'
+signdata '{"address":"i-address or friendly name (t-address will result in simple signature w/indicated hash and prefix, nothing else)",
+signfile "address or identity" "filepath/filename" "currentsig"
+signmessage "address or identity" "message" "currentsig"
+updateidentity "jsonidentity" (returntx) (tokenupdate) (feeoffer) (sourceoffunds)
+verifyfile "address or identity" "signature" "filepath/filename" "checklatest"
+verifyhash "address or identity" "signature" "hexhash" "checklatest"
+verifymessage "address or identity" "signature" "message" "checklatest"
+verifysignature '{"address":"i-address or friendly name (t-address checks on simple signature w/hash and prefix, nothing else)",

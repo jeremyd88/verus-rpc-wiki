@@ -1,0 +1,5 @@
+##getNotarisationsForBlock
+getNotarisationsForBlock blockHash
+
+Takes a block hash and returns notarisation transactions within the block
+```

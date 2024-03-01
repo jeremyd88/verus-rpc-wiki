@@ -1,0 +1,5 @@
+##migrate_completeimporttransaction
+migrate_completeimporttransaction importTx
+
+Takes a cross chain import tx with proof generated on assetchain and extends proof to target chain proof root
+```
