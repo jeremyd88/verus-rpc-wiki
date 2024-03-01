@@ -1,0 +1,17 @@
+##zcbenchmark
+zcbenchmark benchmarktype samplecount
+
+Runs a benchmark of the selected type samplecount times,
+returning the running times of each sample.
+
+Output: [
+  {
+    "runningtime": runningtime
+  },
+  {
+    "runningtime": runningtime
+  }
+  ...
+]
+
+```
